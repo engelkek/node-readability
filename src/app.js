@@ -16,7 +16,7 @@ const logger = winston.createLogger({
 });
 
 const domPurifyOptions = {
-  //   ADD_TAGS: ['iframe', 'video']
+    ADD_TAGS: ['video']
 };
 
 app.disable("x-powered-by");
@@ -55,7 +55,7 @@ app.post("/", bodyParser, (req, res) => {
       const dom = new JSDOM(response.data);
       const parsed = new readability(dom.window.document, {}).parse();
 
-      logger.info("Fetched and parser content");
+      logger.info("Fetched and parsed content");
 
       return res
         .status(200)
