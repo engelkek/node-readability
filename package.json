@@ -1,0 +1,18 @@
+{
+  "name": "node-readability",
+  "version": "1.0.0",
+  "description": "Mozilla's readability lib as a service",
+  "author": "Karsten Engelke <kengelke@protonmail.com>",
+  "license": "GPLv2",
+  "main": "src/app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.19.2",
+    "readability": "https://github.com/mozilla/readability#52ab9b5",
+    "body-parser": "^1.19.0",
+    "dompurify": "^2.0.3",
+    "jsdom": "^15.1.1",
+    "log-timestamp": "^0.3.0",
+    "winston": "^3.2.1"
+  }
+}
