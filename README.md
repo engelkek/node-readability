@@ -39,3 +39,8 @@ To handle URLs that require authorization or special headers to be set, these ca
         }
     }
 
+## Docker
+
+The Docker image exports port 13000:
+
+    docker run -d -p 13000:13000 kengelke/node-readability
