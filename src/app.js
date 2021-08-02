@@ -65,7 +65,7 @@ app.post("/", bodyParser, (req, res) => {
           excerpt: parsed.excerpt || "",
           byline: parsed.byline || "",
           length: parsed.length,
-          title: parsed.titles || "",
+          title: parsed.title || "",
         })
         .end();
     })
