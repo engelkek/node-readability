@@ -11,7 +11,7 @@
     "readability": "https://github.com/mozilla/readability#52ab9b5",
     "body-parser": "^1.19.0",
     "dompurify": "^2.0.17",
-    "jsdom": "^15.1.1",
+    "jsdom": "^16.5.0",
     "log-timestamp": "^0.3.0",
     "winston": "^3.2.1"
   }
