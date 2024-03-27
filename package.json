@@ -6,7 +6,7 @@
   "license": "GPLv2",
   "main": "src/app.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.19.2",
     "axios": "^0.21.1",
     "readability": "https://github.com/mozilla/readability#52ab9b5",
     "body-parser": "^1.19.0",
