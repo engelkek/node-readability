@@ -6,11 +6,11 @@
   "license": "GPLv2",
   "main": "src/app.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.20.0",
     "axios": "^0.21.1",
     "readability": "https://github.com/mozilla/readability#52ab9b5",
     "body-parser": "^1.19.0",
-    "dompurify": "^2.0.17",
+    "dompurify": "^2.5.4",
     "jsdom": "^15.1.1",
     "log-timestamp": "^0.3.0",
     "winston": "^3.2.1"
